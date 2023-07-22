@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.inner-container{
+    padding: 0 80px;
+    overflow: hidden;
+}
+.container{
+    padding: 0 80px;
+} 
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* header-area */
+
+.header-area{
+    width: 100%;
+    height: 798px;
+    background-image: url(./images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-top{
+    margin-top: 54px;
+}
+.headrt-logo{
+    width:15%;
+    float: left;
+}
+.headrt-logo{
+    font-family: 'Montserrat', sans-serif;
+}
+.headrt-logo h1{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.headrt-manu{
+    width: 100%;
+}
+.headrt-manu ul li{
+    float: right;
+}
+.headrt-manu ul li a{
+    padding-left: 70px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.heaser-content{
+    margin-top: 222px;
+    margin-left: 576px;
+}
+
+.heaser-content h2{
+    font-size: 80px;
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    
+}
+
+.heaser-content p{
+    margin-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.heaser-content button{
+    margin-top: 45px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffc200;
+    padding: 20px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+/* main-area */
+
+
+
+/* sellar-area */
+.seller-area{
+    width: 100%;
+    height: 796px;
+    background-image: url(./images/seller-area.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.sellar-top h1{
+    margin-top: 140px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+    color: #333333;
+    letter-spacing: 1px;
+
+}
+.sellar-top p{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.sellar-content{
+    margin-top: 77px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.single-area h2{
+    margin-top: 18px;
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-size: 28px;
+}
+.single-area p{
+    margin-top: 27px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 18px;
+}
+
+
+/* taste-area */
+
+.taste-area{
+    width: 100%;
+    height: 796px;
+    background-image: url(./images/taste-area.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.teste-area-content{
+    margin-top: 250px;
+    display: flex;
+}
+
+.taste-area-img{
+    margin-left: 30px;
+}
+
+
+.taste-area-text{
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.taste-area-text h2{
+    font-size: 65px;
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    
+}
+
+.taste-area-text p{
+    margin-top: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.taste-area-text button{
+    margin-top: 64px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffc200;
+    padding: 20px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* statistics-area */
+
+.statistics-area{
+    width: 100%;
+    height: 796px;
+    background-image: url(./images/statistics-area.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.statistics-area-top h2{
+    margin-top: 106px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+    color: #ffc200;
+    letter-spacing: 1px;
+
+}
+.statistics-area-top p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.statistics-area-content{
+    margin-top: 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.statistics-single-area{
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    padding: 75px 0px;
+}
+.statistics-single-area h2{
+    color: #ffc200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.statistics-single-area h3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/* geill-atea */
+.grill-area{
+    width: 100%;
+    height: 800px;
+    background-image: url(./images/grill-area.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.grill-area-content{
+    display: flex;
+}
+.grill-area-text{
+    margin-top: 157px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.grill-area-text h2{
+    font-size: 65px;
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    
+}
+
+.grill-area-text p{
+    margin-top: 53px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.grill-area-text button{
+    margin-top: 73px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #ffc200;
+    padding: 20px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.grill-area-img{
+    margin-top: 116px;
+    margin-left: 130px;
+}
+
+
+/* fields-area */
+
+.fields-area{
+    width: 100%;
+    height: 795px;
+    background-image: url(./images/fields.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.fields-area-text p{
+    margin-top: 272px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
+.fields-area-text h2{
+    margin-top: 52px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+}
+
+/* subscribe-area */
+
+.subscribe-area{
+    width: 100%;
+    height: 795px;
+    background-image: url(./images/subscribe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.subscribe-area-text h2{
+    margin-top: 154px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+}
+.subscribe-area-text p{
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.searchBar{
+    margin-top: 82px;
+} 
+
+.searchBar input{
+    width: 548px;
+    outline: none;
+    border: none;
+    padding: 24px;
+    font-size: 25px;
+}
+.searchBar button{
+    margin-left: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: #ffc200;
+    padding: 23px 50px;
+    cursor: pointer;
+}
+
+
+
+
+/* footer-area */
+
+.footer-area{
+    width: 100%;
+    height: 795px;
+    background-image: url(./images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.footer-area-content{
+    margin-top: 255px;
+    display: flex;
+}
+
+
+.left{
+    color: #ffffff;
+}
+
+.left h2{
+    text-align: left;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.left p{
+    text-align: left;
+    margin-top: 38px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.icon{
+    text-align: left;
+    margin-top: 35px;
+    
+}
+.icon ul li a{
+    margin-right: 15px;
+}
+.icon ul li a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    color: #333333;
+    background-color: #ffffff;
+    padding: 15px 19px;
+}
+
+.rigst{
+    display: flex;
+    
+}
+.rigst-single-area{
+    margin-left: 40px;
+    display: block;
+}
+.rigst-single-area h2{
+    text-align: left;
+    color: #ffffff;
+    text-align: left;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.manu{
+    text-align: left;
+    margin-top: 38px;
+}
+.manu ul li a{
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
